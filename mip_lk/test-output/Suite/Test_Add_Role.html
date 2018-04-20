@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>TestNG:  Test_Add_Role</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_Add_Role</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 20 18:05:20 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>82 seconds (82478 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleFour()'><b>addRoleFour</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test<br>Parameters: TC196, Test Role Two, true, true, true, true, true, true, true, true, true, false, true, false, true, false, false, true, false, true, true, true, flase, false, false, true, Role Name :  : Entered value already exists. Please enter a new value.</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleFour(MIP_AddRole_Test.java:703)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208184824", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208184824'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleFour(MIP_AddRole_Test.java:703)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleTwo()'><b>addRoleTwo</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test<br>Parameters: TC194, Test Role retest, true, true, true, false, false, false, false, false, true, true, false, false, false, true, true, false, true, true, true, true, true, false, true, true, The role details have been added successfully, Test Role Test, for role, 0201245040, test@thbs.com, 25/05/1985, Male, Test Role retest, HO, The user details have been added successfully.</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: popup_message (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.milvik.mip.pageutil.MIP_BasePage.waitForElementToVisible(MIP_BasePage.java:51)
+	at com.milvik.mip.pageutil.MIP_BasePage.confirmPopUp(MIP_BasePage.java:202)
+	at com.milvik.mip.pageobjects.MIP_AddRolePage.confirmAddRole(MIP_AddRolePage.java:34)
+	at com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleTwo(MIP_AddRole_Test.java:352)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: popup_message
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;TH1554&apos;, ip: &apos;172.16.10.130&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1557534595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1557534595'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: popup_message (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.milvik.mip.pageutil.MIP_BasePage.waitForElementToVisible(MIP_BasePage.java:51)
+	at com.milvik.mip.pageutil.MIP_BasePage.confirmPopUp(MIP_BasePage.java:202)
+	at com.milvik.mip.pageobjects.MIP_AddRolePage.confirmAddRole(MIP_AddRolePage.java:34)
+	at com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleTwo(MIP_AddRole_Test.java:352)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: popup_message
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;TH1554&apos;, ip: &apos;172.16.10.130&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+</pre></div></td>
+<td>45</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleFour()'><b>addRoleFour</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test<br>Parameters: TC195, 123@, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, false, true, true, true, flase, true, true, true, Role Name:Names can contain only alphabets, one single quote, space and hyphen. </td>
+<td></td>
+<td>12</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleOne()'><b>addRoleOne</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleThree()'><b>addRoleThree</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test<br>Parameters: TC195, 123@, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, false, true, true, true, flase, true, true, true, Role Name:Names can contain only alphabets, one single quote, space and hyphen. </td>
+<td></td>
+<td>7</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.addRoleThree()'><b>addRoleThree</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test<br>Parameters: TC196, Test Role Two, true, true, true, true, true, true, true, true, true, false, true, false, true, false, false, true, false, true, true, true, flase, false, false, true, Role Name :  : Entered value already exists. Please enter a new value.</td>
+<td></td>
+<td>6</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+<tr>
+<td title='com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test.roleManagement()'><b>roleManagement</b><br>Test class: com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test</td>
+<td></td>
+<td>0</td>
+<td>com.milvik.mip.rolemanagement.testrunner.MIP_AddRole_Test@5442a311</td></tr>
+</table><p>
+</body>
+</html>

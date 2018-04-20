@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="flag" value="1"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="Login_Test">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+			<class name="com.milvik.mip.loginlogout.testrunner.MIP_Login_Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Logout_Test">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+			<class name="com.milvik.mip.loginlogout.testrunner.MIP_Logout_Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

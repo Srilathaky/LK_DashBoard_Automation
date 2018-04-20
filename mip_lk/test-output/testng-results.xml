@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38093" started-at="2018-04-19T09:09:47Z" finished-at="2018-04-19T09:10:25Z">
+    <groups>
+    </groups>
+    <test name="CustomerRegistration_Test" duration-ms="38093" started-at="2018-04-19T09:09:47Z" finished-at="2018-04-19T09:10:25Z">
+      <class name="com.milvik.mip.testconfig.MIP_Test_Configuration">
+        <test-method status="PASS" signature="configBeforeSuit(java.lang.String)[pri:0, instance:com.milvik.mip.testconfig.MIP_Test_Configuration@5b275dab]" name="configBeforeSuit" is-config="true" duration-ms="80405" started-at="2018-04-19T14:38:27Z" finished-at="2018-04-19T14:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuit -->
+        <test-method status="PASS" signature="configAfterSuit()[pri:0, instance:com.milvik.mip.testconfig.MIP_Test_Configuration@5b275dab]" name="configAfterSuit" is-config="true" duration-ms="289" started-at="2018-04-19T14:40:25Z" finished-at="2018-04-19T14:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuit -->
+      </class> <!-- com.milvik.mip.testconfig.MIP_Test_Configuration -->
+      <class name="com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test">
+        <test-method status="PASS" signature="test_setup(java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="test_setup" is-config="true" duration-ms="1518" started-at="2018-04-19T14:39:47Z" finished-at="2018-04-19T14:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_setup -->
+        <test-method status="PASS" signature="duplicateAccountIdValidation_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="duplicateAccountIdValidation_Postpaid" duration-ms="5183" started-at="2018-04-19T14:39:49Z" data-provider="duplicateAccountIdValidation-Postpaid" finished-at="2018-04-19T14:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Duplicate Account ID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[197880550586]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CDMA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2133233545]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Account ID  :  Entered Account ID value already exists. Please enter a new value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateAccountIdValidation_Postpaid -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="after_test" is-config="true" duration-ms="0" started-at="2018-04-19T14:39:54Z" finished-at="2018-04-19T14:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=duplicateAccountIdValidation_Postpaid status=SUCCESS method=MIP_CustRegistration_Postpaid_Test.duplicateAccountIdValidation_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="fieldValidationWithNegativeData_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="fieldValidationWithNegativeData_Postpaid" duration-ms="9942" started-at="2018-04-19T14:39:54Z" data-provider="Field_Validation_With_NegativeData-Postpaid" finished-at="2018-04-19T14:40:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Field Validation Scenario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[197880550586]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CDMA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GFD%^$^D]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Customer Name  :  Names can contain only alphabets, one single quote and space.Spouse Name  :  Names can contain only alphabets, one single quote and space.Third Child Name  :  Names can contain only alphabets, one single quote and space.Second Child Name  :  Names can contain only alphabets, one single quote and space.First Child Name  :  Names can contain only alphabets, one single quote and space.Nominee Name  :  Names can contain only alphabets, one single quote and space.Contact Number  :  Mobile number can only contain numbers and the length must be of 9 digits.Account ID  :  Please provide numeric value only.Postal Code  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fieldValidationWithNegativeData_Postpaid -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="after_test" is-config="true" duration-ms="0" started-at="2018-04-19T14:40:04Z" finished-at="2018-04-19T14:40:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fieldValidationWithNegativeData_Postpaid status=SUCCESS method=MIP_CustRegistration_Postpaid_Test.fieldValidationWithNegativeData_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="mandatoryFieldValidationInregistration_Postpaid" duration-ms="5080" started-at="2018-04-19T14:40:04Z" data-provider="mandatoryFieldValidationin_Postpaid_Registration" finished-at="2018-04-19T14:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mandatory Field Validation_GSM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[197880550586]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GSM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Mobile Number  :  Field should not be empty.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatoryFieldValidationInregistration_Postpaid -->
+        <test-method status="PASS" signature="mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="mandatoryFieldValidationInregistration_Postpaid" duration-ms="5562" started-at="2018-04-19T14:40:09Z" data-provider="mandatoryFieldValidationin_Postpaid_Registration" finished-at="2018-04-19T14:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mandatory Field Validation_CDMA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[197880550586]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CDMA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Account ID  :  Field should not be empty.Address Line 1  :  Field should not be empty.Address Line 2  :  Field should not be empty.Postal Code  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatoryFieldValidationInregistration_Postpaid -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="after_test" is-config="true" duration-ms="0" started-at="2018-04-19T14:40:09Z" finished-at="2018-04-19T14:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mandatoryFieldValidationInregistration_Postpaid status=SUCCESS method=MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="mandatoryFieldValidationInregistration_Postpaid" duration-ms="5453" started-at="2018-04-19T14:40:15Z" data-provider="mandatoryFieldValidationin_Postpaid_Registration" finished-at="2018-04-19T14:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mandatory Field Validation_LTE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[197880550586]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LTE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Account ID  :  Field should not be empty.Address Line 1  :  Field should not be empty.Address Line 2  :  Field should not be empty.Postal Code  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatoryFieldValidationInregistration_Postpaid -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="after_test" is-config="true" duration-ms="0" started-at="2018-04-19T14:40:15Z" finished-at="2018-04-19T14:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mandatoryFieldValidationInregistration_Postpaid status=SUCCESS method=MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="mandatoryFieldValidationInregistration_Postpaid" duration-ms="4957" started-at="2018-04-19T14:40:20Z" data-provider="mandatoryFieldValidationin_Postpaid_Registration" finished-at="2018-04-19T14:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mandatory Field Validation_DTV]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[197880550586]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DTV]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Account ID  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatoryFieldValidationInregistration_Postpaid -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="after_test" is-config="true" duration-ms="0" started-at="2018-04-19T14:40:20Z" finished-at="2018-04-19T14:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mandatoryFieldValidationInregistration_Postpaid status=SUCCESS method=MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="after_test" is-config="true" duration-ms="0" started-at="2018-04-19T14:40:25Z" finished-at="2018-04-19T14:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mandatoryFieldValidationInregistration_Postpaid status=SUCCESS method=MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="tear_down(java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929]" name="tear_down" is-config="true" duration-ms="373" started-at="2018-04-19T14:40:25Z" finished-at="2018-04-19T14:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test -->
+    </test> <!-- CustomerRegistration_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

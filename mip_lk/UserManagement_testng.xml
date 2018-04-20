@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="flag" value="1"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="Test_ResetPass">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+			<class
+				name="com.milvik.mip.usermanagement.testrunner.MIP_ResetPassword_Test" />
+		</classes>
+	</test>
+
+	<test name="Test_SearchUser">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+			<class name="com.milvik.mip.usermanagement.testrunner.MIP_SearchUser_Test" />
+
+		</classes>
+	</test>
+	<test name="Test_AddUser">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+			<class name="com.milvik.mip.usermanagement.testrunner.MIP_AddUser_Test" />
+		</classes>
+	</test>
+	<test name="Test_ListUser">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+			<class name="com.milvik.mip.usermanagement.testrunner.MIP_ListUser_Test" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

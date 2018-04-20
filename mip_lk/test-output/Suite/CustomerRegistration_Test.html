@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  CustomerRegistration_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CustomerRegistration_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 19 14:39:47 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38093 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test.duplicateAccountIdValidation_Postpaid()'><b>duplicateAccountIdValidation_Postpaid</b><br>Test class: com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test<br>Parameters: Duplicate Account ID, 197880550586, CDMA, 2133233545, Account ID  :  Entered Account ID value already exists. Please enter a new value</td>
+<td></td>
+<td>5</td>
+<td>com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test.fieldValidationWithNegativeData_Postpaid()'><b>fieldValidationWithNegativeData_Postpaid</b><br>Test class: com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test<br>Parameters: Field Validation Scenario, 197880550586, CDMA, GFD%^$^D, Customer Name  :  Names can contain only alphabets, one single quote and space.Spouse Name  :  Names can contain only alphabets, one single quote and space.Third Child Name  :  Names can contain only alphabets, one single quote and space.Second Child Name  :  Names can contain only alphabets, one single quote and space.First Child Name  :  Names can contain only alphabets, one single quote and space.Nominee Name  :  Names can contain only alphabets, one single quote and space.Contact Number  :  Mobile number can only contain numbers and the length must be of 9 digits.Account ID  :  Please provide numeric value only.Postal Code  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.Reference Number  :  Please enter only alphanumeric character.Alternative Contact Number  :  Please provide numeric value only.</td>
+<td></td>
+<td>9</td>
+<td>com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid()'><b>mandatoryFieldValidationInregistration_Postpaid</b><br>Test class: com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test<br>Parameters: Mandatory Field Validation_GSM, 197880550586, GSM,  Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Mobile Number  :  Field should not be empty.</td>
+<td></td>
+<td>5</td>
+<td>com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid()'><b>mandatoryFieldValidationInregistration_Postpaid</b><br>Test class: com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test<br>Parameters: Mandatory Field Validation_CDMA, 197880550586, CDMA,  Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Account ID  :  Field should not be empty.Address Line 1  :  Field should not be empty.Address Line 2  :  Field should not be empty.Postal Code  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.</td>
+<td></td>
+<td>5</td>
+<td>com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid()'><b>mandatoryFieldValidationInregistration_Postpaid</b><br>Test class: com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test<br>Parameters: Mandatory Field Validation_LTE, 197880550586, LTE,  Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Account ID  :  Field should not be empty.Address Line 1  :  Field should not be empty.Address Line 2  :  Field should not be empty.Postal Code  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.</td>
+<td></td>
+<td>5</td>
+<td>com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test.mandatoryFieldValidationInregistration_Postpaid()'><b>mandatoryFieldValidationInregistration_Postpaid</b><br>Test class: com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test<br>Parameters: Mandatory Field Validation_DTV, 197880550586, DTV, Customer Name  :  Field should not be empty.Preferred Language  :  Please choose a value from the Drop down.Nominee Name  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Account ID  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.Reference Number  :  Field should not be empty.</td>
+<td></td>
+<td>4</td>
+<td>com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Postpaid_Test@61832929</td></tr>
+</table><p>
+</body>
+</html>

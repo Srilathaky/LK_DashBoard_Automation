@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="flag" value="1"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="AdminConfig_Test">
+		<classes>
+			<class name="com.milvik.mip.testconfig.MIP_Test_Configuration" />
+
+			<class
+				name="com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

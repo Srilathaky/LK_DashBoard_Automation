@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  AdminConfig_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AdminConfig_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 29 12:47:41 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15076 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigOne()'><b>adminConfigOne</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test</td>
+<td></td>
+<td>0</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC204, all, , Default Password : Field should not be empty.
+Prefix for User Login ID : Field should not be empty.
+Maximum Password History Limit : Field should not be empty.
+Maximum Login Attempts : Field should not be empty.
+Maximum number of days the customer remains idle (Idle Status) : Field should not be empty.
+Home screen announcements : Field should not be empty.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC205, default_password, gh, Default Password : must be of atleast 8 characters.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC205, default_password, hfgshghgsgshd, Default Password : must match the following criteria,
+A minimum of 8 characters length.
+At least one upper case alphabet.
+At least one lower case alphabet.
+At least one number.
+At least one special character.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC206, user_login_prefix, 45.0, 
+Prefix for User Login ID:Please enter only alphabets.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC207, password_history_limit, @, Maximum Password History Limit:Enter a valid number.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC208, max_login_attempts, T, Maximum Login Attempts:Enter a valid number.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC209, max_idle_count, *, Maximum number of months the customer remains idle (Idle Status):Enter a valid number.</td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigThree()'><b>adminConfigThree</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: TC210, announcement_message, , Home screen announcements:Field should not be empty. </td>
+<td></td>
+<td>1</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+<tr>
+<td title='com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test.adminConfigTwo()'><b>adminConfigTwo</b><br>Test class: com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test<br>Parameters: Dialog123!, DA, 5, 3, 4, For "October" 16th to November 15th, the target registration for Mobile and CSC is  460 and 625 for Call Centre Agents. Targets were based on 23 and 25 working days respectively., The Admin Configuration details have been saved successfully. Click here to go back</td>
+<td></td>
+<td>3</td>
+<td>com.milvik.mip.adminconfig.testrunner.MIP_AdminConfiguration_Test@61832929</td></tr>
+</table><p>
+</body>
+</html>
